@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+	display: box;
+
+}
+
+body {
+
+	width: 98%;
+	height: 100%;
+	
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+
+	align-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-align: center;
+	outline: 1px red solid;
+}
+
+#container {
+	
+	width: 80%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-box-orient:vertical;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+
+
+}
+
+#headings {
+	width: 75%;
+	
+	
+	/* -webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+	
+	-webkit-box-pack: end; */
+}
+
+#container>.row {
+	height: 90%;
+}
+#headings>.column {
+	float: right;
+	-webkit-box-pack:end;
+}
+/* .row:nth-child(2) {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+
+-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+
+	-webkit-box-pack:end;
+} */
+/* 
+#container:nth-child(1) {
+	display: -webkit-box;
+	-webkit-box-flex:1;
+	-webkit-box-orient: horizontal;
+} */
+
+.column {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+
+
+
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-box-orient: vertical;
+}
+
+/* #headings {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-box-orient: vertical;
+	
+
+	-webkit-box-align: end;
+	-moz-box-align: end;
+	-ms-box-align: end;
+
+	align-content: right;
+} */
+
+h1 {			
+	font:bold 35px 'Roboto';
+	max-height: 75%;
+	
+	
+}
+
+h2 {
+	font:bold 15px 'Roboto';
+	max-height: 25%;
+}
+
+hr{
+	size: 2px;
+	color: #C0C0C0;
+}
+
+#slide {
+	width: 100%;
+	height: 75%;
+}
+
+.column-3 {
+	width: 33%;
+	height: 33%;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-align:center;
+}
+
+.column-3>img {
+	width: 100%;
+	height: 250px;
+}
