@@ -5,20 +5,30 @@
 
 
 
+.square {
+    height: 100vh;
+    height: 100vh;
+}
+
 .container {
-    width: 80%;
-    display: block;
+    width: 100%;
+
 }
 
 .row {
     width: 100%;
     display: flex;
-    align: center;
 
 }
 
+.row + #heading {
+    align-content: bottom right;
+}
+
+
 .col-1 {
     width: 8.33%;
+
 }
 
 .col-2 {
@@ -63,4 +73,14 @@
 
 .col-12 {
     width: 100%;
+}
+
+.col-8>#heading {
+    font-size: 10vh;
+
+}
+
+.col-8>#heading {
+    font-size: 7vh;
+
 }
